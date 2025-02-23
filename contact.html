@@ -83,7 +83,7 @@
 		</div>
 	</nav>
 	
-	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/call.webp)">
+	<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(images/cont_Us.jpg)">
 		<div class="overlay"></div>
 		<div class="gtco-container">
 			<div class="row">
@@ -109,40 +109,40 @@
 				<div class="col-md-12">
 					<div class="col-md-6 animate-box">
 					<h3>Get In Touch</h3>
-					<form action="#">
+					<form action="https://formspree.io/f/xvgznkkg" method="POST">
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="name">Name</label>
-								<input type="text" id="name" class="form-control" placeholder="Your firstname">
+								<input type="text" id="name" name="name" class="form-control" placeholder="Your firstname" required>
 							</div>
-							
 						</div>
-
+					
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="email">Email</label>
-								<input type="text" id="email" class="form-control" placeholder="Your email address">
+								<input type="email" id="email" name="email" class="form-control" placeholder="Your email address" required>
 							</div>
 						</div>
-
+					
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="subject">Subject</label>
-								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+								<input type="text" id="subject" name="subject" class="form-control" placeholder="Your subject of this message" required>
 							</div>
 						</div>
-
+					
 						<div class="row form-group">
 							<div class="col-md-12">
 								<label class="sr-only" for="message">Message</label>
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write us something"></textarea>
+								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Write us something" required></textarea>
 							</div>
 						</div>
+					
 						<div class="form-group">
 							<input type="submit" value="Send Message" class="btn btn-primary">
 						</div>
-
-					</form>		
+					</form>
+						
 				</div>
 				<div class="col-md-5 col-md-push-1 animate-box">
 					
